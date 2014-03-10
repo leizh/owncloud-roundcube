@@ -20,19 +20,19 @@ msgstr ""
 
 #: ajax/adminSettings.php:49 ajax/userSettings.php:30
 msgid "Not submitted for us."
-msgstr "pas soumis."
+msgstr "Pas envoyé pour nous."
 
 #: ajax/adminSettings.php:53
 msgid "Application settings successfully stored."
-msgstr "Sauvegarde des paramètres réussi"
+msgstr "Sauvegarde des paramètres réussie."
 
 #: ajax/userSettings.php:26
 msgid "Unable to store email credentials in the data-base."
-msgstr "Impossible de sauvegarder les identifiants dans la base de données"
+msgstr "Impossible de sauvegarder les identifiants dans la base de données."
 
 #: ajax/userSettings.php:34
 msgid "Email-user credentials successfully stored."
-msgstr "Sauvegarde des identifants réussi"
+msgstr "Sauvegarde des identifants réussie."
 
 #: appinfo/app.php:50
 msgid "Webmail"
@@ -40,15 +40,15 @@ msgstr "Webmail"
 
 #: templates/adminSettings.php:7
 msgid "RoundCube Settings"
-msgstr "Paramètre RoundCube"
+msgstr "Paramètres RoundCube"
 
 #: templates/adminSettings.php:10
 msgid "Basic settings"
-msgstr "Paramètre de base"
+msgstr "Paramètres de base"
 
 #: templates/adminSettings.php:11
 msgid "Advanced settings"
-msgstr "Paramètre avancé"
+msgstr "Paramètres avancés"
 
 #: templates/adminSettings.php:16
 msgid ""
@@ -56,53 +56,53 @@ msgid ""
 "roundcube enter /roundcube/ here. Note that subdomains or URLs do not work, "
 "just absolute paths to the same domain owncloud is running."
 msgstr ""
-"Entrer le chemin absolu d'installation de Rouncube, e.g pour https://exemple."
+"Entrer le chemin absolu d'installation de RoundCube, e.g pour https://exemple."
 "com/roundcubeentrer /roundcube/. Noter que le sous-domaine ou URL ne "
-"fonctionneront pas, seul le chemin absolute d'un même domaine que Ownloud "
+"fonctionneront pas, seul le chemin absolu d'un même domaine que Ownloud "
 "fonctionnera."
 
 #: templates/adminSettings.php:27
 msgid ""
 "Remove RoundCube control navigation menu items with currently logged in user "
 "information"
-msgstr "Cacher le menu de gestion des utilisateurs de Rouncube "
+msgstr "Cacher le menu de gestion des utilisateurs de RoundCube"
 
 #: templates/adminSettings.php:27
 msgid "Remove information bar on top of page"
-msgstr "Cache les informations de la bar du haut de page"
+msgstr "Cacher les informations de la barre du haut de page"
 
 #: templates/adminSettings.php:31
 msgid ""
 "Removes the buttons for different sections (mail, adressbook, settings) "
 "within the RoundCube mail application"
 msgstr ""
-"Cacher les boutons des sections (mail, agenda, paramètre)de l'application "
+"Cacher les boutons des sections (mail, agenda, paramètres) de l'application "
 "mail de Roundcube"
 
 #: templates/adminSettings.php:31
 msgid "Remove RoundCube header navigation menu items"
-msgstr "Cacher le menu de gestion de Rouncube"
+msgstr "Cacher le menu de gestion de RoundCube"
 
 #: templates/adminSettings.php:37
 msgid ""
 "Enable autologin for users, which reuse the login data from OC for RoundCube."
 msgstr ""
-"Activer l'auto-authentification pour les utilisateur, qui re-utilisera les "
-"données du compte RounCube d'Owncloud."
+"Activer l'auto-authentification pour les utilisateurs, qui re-utilisera les "
+"données du compte RoundCube d'Owncloud."
 
 #: templates/adminSettings.php:37
 msgid "Enable autologin for users"
-msgstr "Activer l'auto-authentification pour les utilisateur"
+msgstr "Activer l'auto-authentification pour les utilisateurs"
 
 #: templates/adminSettings.php:41
 msgid "Enable debug messages. RC tends to bloat the log-files."
 msgstr ""
-"Active les message de debug. Attention, à la taille des fichiers de log "
-"RounCube "
+"Active les messages de debug. Attention, à la taille des fichiers de log "
+"RoundCube "
 
 #: templates/adminSettings.php:41
 msgid "Enable debug logging"
-msgstr "Active mode debug"
+msgstr "Activer la journalisation de débogage"
 
 #: templates/adminSettings.php:45
 msgid ""
@@ -111,7 +111,7 @@ msgid ""
 "mind that due to iFrame security constraints it will be only working on the "
 "same server, see HTML/JS same-origin policies"
 msgstr ""
-"Ecraser le nom d'hôte de RounCube si il n'est pas le même que celui "
+"Ecraser le nom d'hôte de RoundCube si il n'est pas le même que celui "
 "d'OwnCloud,  e.g pour le (sous)domaines qui resident sur le même server, e.g "
 "rc.domain.tld mais garder à l'esprit qu'à cause des contrainte de sécurity "
 "d'iFrame cela ne marche que sur un même server, voir les polices de HTML/JS."
@@ -127,7 +127,7 @@ msgstr "Erreur de la base de donnée"
 #: templates/part.error.db.php:4
 msgid "Please follow the wiki page to setup the database manually:"
 msgstr ""
-"Veuillez suivre la page wiki d'installation manuel de la base de donnée."
+"Veuillez suivre la page wiki d'installation manuelle de la base de donnée."
 
 #: templates/part.error.error-settings.php:2
 msgid "You have errors in your settings"
@@ -141,7 +141,7 @@ msgstr "Vous pouvez gèrer vos paramètres administrateur, ici :"
 #: templates/part.error.no-settings.php:5
 #: templates/part.error.wrong-auth.php:5
 msgid "Settings"
-msgstr "paramètres"
+msgstr "Paramètres"
 
 #: templates/part.error.no-settings.php:2
 msgid "You don't have any email account configured yet."
@@ -150,7 +150,7 @@ msgstr "Vous n'avez pas encore de compte mail configuré."
 #: templates/part.error.no-settings.php:4
 #: templates/part.error.wrong-auth.php:4
 msgid "You can manage your email accounts here:"
-msgstr "Vous pouvez gèrer vos paramètres administrateur, ici :"
+msgstr "Vous pouvez gèrer votre compte mail ici :"
 
 #: templates/part.error.wrong-auth.php:2
 msgid ""
@@ -174,7 +174,7 @@ msgstr "Mot de passe de l'email"
 
 #: templates/userSettings.php:57
 msgid "show"
-msgstr "Montre"
+msgstr "montrer"
 
 #: templates/userSettings.php:62
 msgid "Change Email Identity"
