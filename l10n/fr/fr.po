@@ -36,7 +36,7 @@ msgstr "Sauvegarde des identifants réussie."
 
 #: appinfo/app.php:50
 msgid "Webmail"
-msgstr "Webmail"
+msgstr "Courrier"
 
 #: templates/adminSettings.php:7
 msgid "RoundCube Settings"
@@ -162,7 +162,7 @@ msgstr ""
 
 #: templates/userSettings.php:36
 msgid "RoundCube Mailaccount"
-msgstr "Compte Mail RoundCube"
+msgstr "WebMail (fonctionne uniquement avec les adresses Free)"
 
 #: templates/userSettings.php:49
 msgid "Email Login Name"
