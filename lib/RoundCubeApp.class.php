@@ -250,7 +250,7 @@ class OC_RoundCube_App {
     if ($rcl -> isLoggedIn()) {
       OCP\Util::writeLog('roundcube', 'Probably successfully refreshed the RC session.', OCP\Util::INFO);
     } else {
-      OCP\Util::writeLog('roundcube', 'Probably failed to refresh the RC session.', OCP\Util::ERROR);
+      OCP\Util::writeLog('roundcube', 'Probably failed to refresh the RC session.', OCP\Util::INFO);
     }
   }
 
