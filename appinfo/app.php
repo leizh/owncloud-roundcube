@@ -39,13 +39,20 @@ OCP\Util::connectHook('OC_User', 'logout', 'OC_RoundCube_AuthHelper', 'logout');
 OCP\Util::connectHook('OC_User', 'post_setPassword', 'OC_RoundCube_AuthHelper', 'changePasswordListener');
 
 // probably no longer needed, now that we use routes ...
-// OCP\BackgroundJob::AddRegularTask('OC_RoundCube_AuthHelper', 'refresh');
+OCP\BackgroundJob::AddRegularTask('OC_RoundCube_AuthHelper', 'refresh');
 
 // Add global JS routines; this one triggers a session refresh for DW.
+// currently doesn't work
 OCP\Util::addScript('roundcube', 'routes');
 
 OCP\App::registerAdmin('roundcube', 'adminSettings');
 OCP\App::registerPersonal('roundcube', 'userSettings');
 
-OCP\App::addNavigationEntry(array('id' => 'roundcube_index', 'order' => 10, 'href' => OCP\Util::linkTo('roundcube', 'index.php'), 'icon' => OCP\Util::imagePath('roundcube', 'mail.svg'), 'name' => $l -> t('Webmail')));
+OCP\App::addNavigationEntry(array(
+    'id' => 'roundcube_index',
+    'order' => 10,
+    'href' => OCP\Util::linkTo('roundcube', 'index.php'),
+    'icon' => OCP\Util::imagePath('roundcube', 'mail.svg'),
+    'name' => $l -> t('Webmail')
+    ));
 ?>
